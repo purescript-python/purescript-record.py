@@ -12,7 +12,7 @@ def unsafeInsert(l):
     return value
 
 
-def unsafeInsert(l):
+def unsafeModify(l):
     def modify(f):
         def ap(rec):
             rec[l] = f(rec[l])
